@@ -1,0 +1,11 @@
+﻿<Window x:Class="OscServerBinaryDataExtractorGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Конвертор бинарных данных для BM8021" Height="120" Width="554" ResizeMode="NoResize" Icon="/OscServerBinaryDataExtractorGUI;component/oscilloscope.png" Loaded="Window_Loaded">
+    <Grid>
+        <Button Content="Открыть" Height="41" HorizontalAlignment="Left" Margin="22,12,0,0" Name="button1" VerticalAlignment="Top" Width="120" Click="button1_Click" />
+        <Button Content="Конвертировать!" Height="41" HorizontalAlignment="Left" Margin="202,12,0,0" Name="button2" VerticalAlignment="Top" Width="120" Click="button2_Click" />
+        <Button Content="Закрыть" Height="41" HorizontalAlignment="Left" Margin="380,12,0,0" Name="button3" VerticalAlignment="Top" Width="120" Click="button3_Click" />
+        <TextBlock Height="22" HorizontalAlignment="Left" Margin="0,59,0,0" Name="textBlock1" Text="Файл не открыт." VerticalAlignment="Top" Width="532" />
+    </Grid>
+</Window>

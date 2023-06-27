@@ -1,0 +1,13 @@
+Z:\Visual Studio Projects\OscServerBinaryDataExtractorGUI\OscServerBinaryDataExtractorGUI\obj\x86\Debug\ResolveAssemblyReference.cache
+Z:\Visual Studio Projects\OscServerBinaryDataExtractorGUI\OscServerBinaryDataExtractorGUI\obj\x86\Debug\MainWindow.baml
+Z:\Visual Studio Projects\OscServerBinaryDataExtractorGUI\OscServerBinaryDataExtractorGUI\obj\x86\Debug\MainWindow.g.cs
+Z:\Visual Studio Projects\OscServerBinaryDataExtractorGUI\OscServerBinaryDataExtractorGUI\obj\x86\Debug\App.g.cs
+Z:\Visual Studio Projects\OscServerBinaryDataExtractorGUI\OscServerBinaryDataExtractorGUI\obj\x86\Debug\OscServerBinaryDataExtractorGUI_MarkupCompile.cache
+Z:\Visual Studio Projects\OscServerBinaryDataExtractorGUI\OscServerBinaryDataExtractorGUI\obj\x86\Debug\OscServerBinaryDataExtractorGUI.g.resources
+Z:\Visual Studio Projects\OscServerBinaryDataExtractorGUI\OscServerBinaryDataExtractorGUI\obj\x86\Debug\OscServerBinaryDataExtractorGUI.Properties.Resources.resources
+Z:\Visual Studio Projects\OscServerBinaryDataExtractorGUI\OscServerBinaryDataExtractorGUI\obj\x86\Debug\GenerateResource.read.1.tlog
+Z:\Visual Studio Projects\OscServerBinaryDataExtractorGUI\OscServerBinaryDataExtractorGUI\obj\x86\Debug\GenerateResource.write.1.tlog
+Z:\Visual Studio Projects\OscServerBinaryDataExtractorGUI\OscServerBinaryDataExtractorGUI\bin\Debug\OscServerBinaryDataExtractorGUI.exe
+Z:\Visual Studio Projects\OscServerBinaryDataExtractorGUI\OscServerBinaryDataExtractorGUI\bin\Debug\OscServerBinaryDataExtractorGUI.pdb
+Z:\Visual Studio Projects\OscServerBinaryDataExtractorGUI\OscServerBinaryDataExtractorGUI\obj\x86\Debug\OscServerBinaryDataExtractorGUI.exe
+Z:\Visual Studio Projects\OscServerBinaryDataExtractorGUI\OscServerBinaryDataExtractorGUI\obj\x86\Debug\OscServerBinaryDataExtractorGUI.pdb
