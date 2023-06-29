@@ -52,25 +52,35 @@ namespace OscServerBinaryDataExtractorGUI
             saveFileDialog.Filter = "CSV files (*.csv)|*.csv|All files (*.*)|*.*";
             if (saveFileDialog.ShowDialog() == true)
             {
-                textBlock1.Text = "Сохраняю файл...";
-                FileStream fs_in = File.OpenRead(fileName);
-                long in_size = fs_in.Length;
-                FileStream fs_out = File.OpenWrite(saveFileDialog.FileName);
-                fs_in.Seek(0x1E, SeekOrigin.Begin);
-                for (long i = 0x1E; i < in_size; ++i)
+                try
                 {
-                    byte c = (byte) fs_in.ReadByte();
-                    sbyte sc = (sbyte)c;
-                    int val = sc;
-                    string s_val = val.ToString() + Environment.NewLine;
-                    byte[] b_val = new UTF8Encoding(true).GetBytes(s_val.ToCharArray());
-                    fs_out.Write(b_val, 0, b_val.Length);
+                    textBlock1.Text = "Сохраняю файл...";
+                    FileStream fs_in = File.OpenRead(fileName);
+                    long in_size = fs_in.Length;
+                    FileStream fs_out = File.OpenWrite(saveFileDialog.FileName);
+                    fs_in.Seek(0x1E, SeekOrigin.Begin);
+                    for (long i = 0x1E; i < in_size; ++i)
+                    {
+                        byte c = (byte)fs_in.ReadByte();
+                        sbyte sc = (sbyte)c;
+                        int val = sc;
+                        string s_val = val.ToString() + Environment.NewLine;
+                        byte[] b_val = new UTF8Encoding(true).GetBytes(s_val.ToCharArray());
+                        fs_out.Write(b_val, 0, b_val.Length);
 
+
+                    }
+                    fs_in.Close();
+                    fs_out.Close();
+                    textBlock1.Text = "Файл сохранен.";
+                }
+                catch (Exception exc)
+                {
+                    textBlock1.Text = "Ошибка при сохранении файла.";
+
+                    MessageBox.Show("Ошибка при сохранении файла." + Environment.NewLine + exc.ToString(), "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
 
                 }
-                fs_in.Close();
-                fs_out.Close();
-                textBlock1.Text = "Файл сохранен.";
             }
         }
 

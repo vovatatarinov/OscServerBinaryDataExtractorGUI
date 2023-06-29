@@ -11,3 +11,4 @@ Z:\Visual Studio Projects\OscServerBinaryDataExtractorGUI\OscServerBinaryDataExt
 Z:\Visual Studio Projects\OscServerBinaryDataExtractorGUI\OscServerBinaryDataExtractorGUI\obj\x86\Release\GenerateResource.write.1.tlog
 Z:\Visual Studio Projects\OscServerBinaryDataExtractorGUI\OscServerBinaryDataExtractorGUI\obj\x86\Release\OscServerBinaryDataExtractorGUI.exe
 Z:\Visual Studio Projects\OscServerBinaryDataExtractorGUI\OscServerBinaryDataExtractorGUI\obj\x86\Release\OscServerBinaryDataExtractorGUI.pdb
+Z:\Visual Studio Projects\OscServerBinaryDataExtractorGUI\OscServerBinaryDataExtractorGUI\bin\Release\OscServerBinaryDataExtractorGUI.exe.config

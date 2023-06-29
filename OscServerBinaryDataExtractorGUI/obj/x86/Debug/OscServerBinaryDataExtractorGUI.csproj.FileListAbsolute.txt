@@ -11,3 +11,4 @@ Z:\Visual Studio Projects\OscServerBinaryDataExtractorGUI\OscServerBinaryDataExt
 Z:\Visual Studio Projects\OscServerBinaryDataExtractorGUI\OscServerBinaryDataExtractorGUI\bin\Debug\OscServerBinaryDataExtractorGUI.pdb
 Z:\Visual Studio Projects\OscServerBinaryDataExtractorGUI\OscServerBinaryDataExtractorGUI\obj\x86\Debug\OscServerBinaryDataExtractorGUI.exe
 Z:\Visual Studio Projects\OscServerBinaryDataExtractorGUI\OscServerBinaryDataExtractorGUI\obj\x86\Debug\OscServerBinaryDataExtractorGUI.pdb
+Z:\Visual Studio Projects\OscServerBinaryDataExtractorGUI\OscServerBinaryDataExtractorGUI\bin\Debug\OscServerBinaryDataExtractorGUI.exe.config

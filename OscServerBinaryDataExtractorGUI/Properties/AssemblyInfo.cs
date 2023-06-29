@@ -7,11 +7,11 @@ using System.Windows;
 // Управление общими сведениями о сборке осуществляется с помощью 
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("OscServerBinaryDataExtractorGUI")]
+[assembly: AssemblyTitle("Конвертор бинарных данных для BM8021")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("OscServerBinaryDataExtractorGUI")]
+[assembly: AssemblyCompany("Татаринов Владимир Павлович")]
+[assembly: AssemblyProduct("Конвертор бинарных данных для BM8021")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
